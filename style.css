@@ -11,20 +11,11 @@ h1, h2, h3, p, a {
     font-family: 'Varela Round', sans-serif;
 }
 
-header {
-    height: 100px;
-    width: 100%;
-    position: relative;
-    left: 0;
-    top: 0;
-    color: white;
-    text-align: left;
-}
-
-.small-selfie {
+.selfie {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
+    padding-top: 10px;
 }
 
 .wrapper {
@@ -34,6 +25,7 @@ header {
 }
 
 .container {
+    padding-top: 50px;
     padding-bottom: 150px;
     display: block;
 }
@@ -133,7 +125,7 @@ header {
 .work-link {
     color: #ff304c;
     text-decoration: underline;
-    text-decoration-color: #44d7a8;
+    text-decoration-color: #2b0a3d;
 }
 
 .work-link:hover {
@@ -142,7 +134,7 @@ header {
 
 .about-me {
     width: 50%;
-    display: inline-flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 
@@ -224,7 +216,7 @@ header {
 }
 
 .work-link:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%2344d7a8' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%232b0a3d' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 6px;
     background-repeat: repeat-x;
